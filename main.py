@@ -26,9 +26,11 @@ client = MongoClient(MONGODB_URI)
 class Addition:
     def __init__(self,path = None):
         self.path = path
-
+        self.client = MongoClient(MONGODB_URI)
     def Addition(self):
         pass
-
+    
+    def AddToMongoDb(self):
+        pass
 
 
