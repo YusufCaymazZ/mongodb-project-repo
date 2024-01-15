@@ -27,7 +27,8 @@ class Addition:
     def __init__(self,path = None):
         self.path = path
         self.client = MongoClient(MONGODB_URI)
-    def Addition(self):
+        self.db = self.client.iris
+    def Addition(self,path):
         pass
     
     def AddToMongoDb(self):
