@@ -54,3 +54,6 @@ print(f'Uploaded Image ID: {uploaded_image_id}')
 image_handler.display_image(uploaded_image_id)
 
 print("File one executed when imported")
+
+
+#Cok fazla error var, icabına bakılmalı.
