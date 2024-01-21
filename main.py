@@ -50,7 +50,7 @@ image_handler = Addition()
 uploaded_image_id = image_handler.save_image('iris\iris-setosa\iris-0c826b6f4648edf507e0cafdab53712bb6fd1f04dab453cee8db774a728dd640.jpg')
 print(f'Uploaded Image ID: {uploaded_image_id}')
 
-# MongoDB'den alınan görseli ekrana göster
+# MongoDB'den alınan görseli ekrana göster.
 image_handler.display_image(uploaded_image_id)
 
 print("File one executed when imported")
